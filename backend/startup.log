@@ -1,0 +1,182 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mcom.pegasus:hospital[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding Pegasus Hospital Appointment System 1.0.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mspring-boot-maven-plugin:2.7.18:run[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mhospital[0;1m >>>[m
+[[1;33mWARNING[m] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mhospital[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mhospital[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 60 source files to /home/wangchuh232/coding/AAApegasus-hospital/backend/target/classes
+[[1;34mINFO[m] /home/wangchuh232/coding/AAApegasus-hospital/backend/src/main/java/com/pegasus/hospital/service/impl/DoctorServiceImpl.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /home/wangchuh232/coding/AAApegasus-hospital/backend/src/main/java/com/pegasus/hospital/service/impl/DoctorServiceImpl.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mhospital[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36mhospital[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 6 source files to /home/wangchuh232/coding/AAApegasus-hospital/backend/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mspring-boot-maven-plugin:2.7.18:run[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mhospital[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.7.18:run[m [1m(default-cli)[m @ [36mhospital[0;1m ---[m
+[[1;34mINFO[m] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-02-07 10:12:58.279  INFO 481760 --- [           main] c.pegasus.hospital.HospitalApplication   : Starting HospitalApplication using Java 17.0.18 on wangchuh522 with PID 481760 (/home/wangchuh232/coding/AAApegasus-hospital/backend/target/classes started by wangchuh232 in /home/wangchuh232/coding/AAApegasus-hospital/backend)
+2026-02-07 10:12:58.281 DEBUG 481760 --- [           main] c.pegasus.hospital.HospitalApplication   : Running with Spring Boot v2.7.18, Spring v5.3.31
+2026-02-07 10:12:58.282  INFO 481760 --- [           main] c.pegasus.hospital.HospitalApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-02-07 10:12:59.430  INFO 481760 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-02-07 10:12:59.433  INFO 481760 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-02-07 10:12:59.456  INFO 481760 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2026-02-07 10:13:00.301  INFO 481760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-02-07 10:13:00.310  INFO 481760 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-07 10:13:00.311  INFO 481760 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-02-07 10:13:00.445  INFO 481760 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-07 10:13:00.445  INFO 481760 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2075 ms
+2026-02-07 10:13:00.704 DEBUG 481760 --- [           main] c.p.h.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@43588265'
+Property 'mapperLocations' was not specified.
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.3.1 
+2026-02-07 10:13:01.869  INFO 481760 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2026-02-07 10:13:01.959  WARN 481760 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5d0f4dc6-e94e-4ade-90e1-9d5902b2821c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-07 10:13:02.057  INFO 481760 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7131d668, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46a97805, org.springframework.security.web.context.SecurityContextPersistenceFilter@5906ebfb, org.springframework.security.web.header.HeaderWriterFilter@d5e3f55, org.springframework.web.filter.CorsFilter@21dea711, org.springframework.security.web.authentication.logout.LogoutFilter@177068db, com.pegasus.hospital.config.JwtAuthenticationFilter@7ac48f05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b841e7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6081f330, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@667dd150, org.springframework.security.web.session.SessionManagementFilter@1b7a4930, org.springframework.security.web.access.ExceptionTranslationFilter@5f01fb5c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@66456506]
+2026-02-07 10:13:02.299  INFO 481760 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2026-02-07 10:13:02.474  INFO 481760 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-02-07 10:13:02.475  INFO 481760 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2026-02-07 10:13:02.477  INFO 481760 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2026-02-07 10:13:02.515  INFO 481760 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2026-02-07 10:13:02.599  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_1
+2026-02-07 10:13:02.621  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: importDoctorsUsingPOST_1
+2026-02-07 10:13:02.625  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: importSchedulesUsingPOST_1
+2026-02-07 10:13:02.627  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: downloadDoctorTemplateUsingGET_1
+2026-02-07 10:13:02.629  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: downloadScheduleTemplateUsingGET_1
+2026-02-07 10:13:02.631  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: exportAppointmentsUsingGET_1
+2026-02-07 10:13:02.635  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: generateMonthlyReportUsingGET_1
+2026-02-07 10:13:02.659  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2026-02-07 10:13:02.666  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_1
+2026-02-07 10:13:02.669  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: cancelUsingPUT_1
+2026-02-07 10:13:02.671  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: completeUsingPUT_1
+2026-02-07 10:13:02.678  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDoctorUsingGET_1
+2026-02-07 10:13:02.681  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByPatientUsingGET_1
+2026-02-07 10:13:02.688  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: refreshTokenUsingPOST_1
+2026-02-07 10:13:02.689  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: logoutUsingPOST_1
+2026-02-07 10:13:02.694  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_2
+2026-02-07 10:13:02.695  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_3
+2026-02-07 10:13:02.700  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2026-02-07 10:13:02.713  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2026-02-07 10:13:02.715  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2026-02-07 10:13:02.717  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_2
+2026-02-07 10:13:02.718  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_3
+2026-02-07 10:13:02.721  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2026-02-07 10:13:02.723  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2026-02-07 10:13:02.727  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2026-02-07 10:13:02.727  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_3
+2026-02-07 10:13:02.729  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDepartmentUsingGET_1
+2026-02-07 10:13:02.743  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getScheduleUsingGET_1
+2026-02-07 10:13:02.746  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_4
+2026-02-07 10:13:02.747  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_5
+2026-02-07 10:13:02.752  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: registerUsingPOST_1
+2026-02-07 10:13:02.757  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_2
+2026-02-07 10:13:02.758  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_3
+2026-02-07 10:13:02.761  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_2
+2026-02-07 10:13:02.762  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_3
+2026-02-07 10:13:02.764  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: cancelUsingDELETE_1
+2026-02-07 10:13:02.776  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2026-02-07 10:13:02.776  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_3
+2026-02-07 10:13:02.778  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_4
+2026-02-07 10:13:02.779  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_5
+2026-02-07 10:13:02.781  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_4
+2026-02-07 10:13:02.782  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_5
+2026-02-07 10:13:02.784  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2026-02-07 10:13:02.784  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_3
+2026-02-07 10:13:02.787  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDateUsingGET_1
+2026-02-07 10:13:02.789  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDoctorUsingGET_2
+2026-02-07 10:13:02.789  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDoctorUsingGET_3
+2026-02-07 10:13:02.793  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getHomeStatisticsUsingGET_1
+2026-02-07 10:13:02.794  INFO 481760 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getReportStatisticsUsingGET_1
+2026-02-07 10:13:02.812  INFO 481760 --- [           main] c.pegasus.hospital.HospitalApplication   : Started HospitalApplication in 4.973 seconds (JVM running for 5.356)
+2026-02-07 10:13:02.883  INFO 481760 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-07 10:13:03.159  INFO 481760 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-07 10:13:03.168  INFO 481760 --- [           main] c.p.h.service.PasswordMigrationService   : Starting password migration...
+Creating a new SqlSession
+Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+JDBC Connection [HikariProxyConnection@524136404 wrapping com.mysql.cj.jdbc.ConnectionImpl@33622388] will be managed by Spring
+==>  Preparing: SELECT patient_id,name,password,id_card,phone,gender,birth_date,status,created_at,updated_at FROM patient
+==> Parameters: 
+<==    Columns: patient_id, name, password, id_card, phone, gender, birth_date, status, created_at, updated_at
+<==        Row: 1000000001, 测试患者A, $2a$12$Ds6gzEMXIFUWWPEcgfOhXOMePH7VAwl7oXINwRVFx8TrYcn0n.XC., 110101199001011234, 13800138001, M, 1990-01-01, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 1000000002, 测试患者B, $2a$12$Q/GoVixPLSZCDOk0LcEo2uhR7NNH5ouQhb2zA9gciFEBlgwKOiwtW, 110101199502022345, 13800138002, F, 1995-02-02, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==      Total: 2
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66] from current transaction
+==>  Preparing: SELECT doctor_id,name,password,department_id,specialty,status,created_at,updated_at FROM doctor
+==> Parameters: 
+<==    Columns: doctor_id, name, password, department_id, specialty, status, created_at, updated_at
+<==        Row: 10000001, 张三, $2a$12$cm2GzGtXQ3EiyMe90uhUteu3Tpmc1f9myY4MESq5wg4Wr5UsyOw0O, 1, 擅长呼吸系统疾病、慢性咳嗽、肺炎的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000002, 李四, $2a$12$Awt0zhZZOqxUhF9DB5AJ4uttRUEg3mcJYrxI4HblSexN9wwZXSaIG, 1, 擅长消化系统疾病、胃肠道疾病的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000003, 王五, $2a$12$g4j.7ke8/PwLZ3bgmexbaOEW0ettFOX0Rg6SN3uetZMC6dFvaKw1i, 2, 擅长普外科手术、腹腔镜微创手术, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000004, 赵六, $2a$12$J8BhrizQuqZRiB2WEsuJ0.wYbJdVKO.Y1Wgf4sAYii4DVMx3pk6dy, 3, 擅长儿童常见病、新生儿疾病的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000005, 钱七, $2a$12$OpQSBNidJIC8351kjlKb2.wMn.7WDAOSBxEpkIJnciwBUCeMJvTGu, 4, 擅长妇科炎症、月经不调的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000006, 孙八, $2a$12$68HRti3iOY9YVpbfc9Ngkeb8ESJ44gmUqmhUoGh2Whd/oWLpNIWRC, 5, 擅长白内障、青光眼的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000007, 周九, $2a$12$vASgs6Gq97zrg6N5.N.bi.N84Mc31xIWvkHXoVXfDyJUHSz.goyUi, 6, 擅长鼻炎、中耳炎的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000008, 吴十, $2a$12$PmstGgjk3gtzNlwLXUhvX.OpLliijA/v5xJZTXAawcgvmrpKBuhuW, 9, 擅长骨折、关节置换手术, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000009, 示例医生, $2a$12$IPabbX9V.84PtI5zIbAkAeL5Xzk2NMEzZ4eQFIE91BY/tfUdM2PG2, 1, 擅长内科常见病诊治, 1, 2025-12-25 19:17:09, 2025-12-25 19:17:09
+<==        Row: 10000030, 宋楠, $2a$12$D3ESUdU0cGGmB8wU5CG6bexu6a1IlBBKHVtk2OZ/frP5dWqG4ot0y, 1, 擅长消化系统疾病诊疗, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000031, 彭磊, $2a$12$5akAhkjw7JGxdr.2WJ9KS.kRGITyeBdv5uLPwyJD2nAwIN4wgNIrK, 2, 擅长创伤外科处理, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000032, 袁梦, $2a$12$o.lgwa8MzpnnXkNctY/fQuhMtSyIGCzokY3MqrdwqoKWaHXkApmdq, 3, 擅长儿童营养与发育评估, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000033, 邓丽, $2a$12$B2B/zKwWE4wEgiia9NHcUec.gfRRw4rk9cDwsU5oqb9Bzrsi9Xwmm, 4, 擅长孕期保健与产后恢复, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000034, 任航, $2a$12$B3RgkRCHrNlx5Mr/vrWTe.FaCRs7MlBk7/5y6jNwYp1d3ZBWHkZgq, 5, 擅长白内障及视力检查, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000035, 马会敏, $2a$12$l.QvGN5xoIo9pS/J12u.Mez2YDG570dpDJmbRLtcZje5AP8UD/azG, 6, 擅长儿童口腔疾病防治, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000036, 薛刚, $2a$12$4D5Okp8uWsAf5PYrvkXPmepd8kvb29nMnJA5VSRAwbq2kUgSp9hA6, 7, 擅长脊柱及骨关节疾病, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000037, 叶青, $2a$12$f9zgcM3pAOaNVx6DCWsTmOFjRpNLjxQkj4yB9JsSKEL9DZktVxkm6, 8, 擅长痤疮及皮肤美容护理, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000038, 方磊, $2a$12$lhiBy.PM3HhfA/juEo1np.iUSl5VBuy6Lvz2bRkT8yqJ6sB4CeTAW, 9, 擅长神经衰弱及失眠治疗, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000039, 马会生, $2a$12$0OqrwFCUlwE0dWNpdL.DJeYRVmQM3e0pyiUU6jJLkfP88qrGeGy6i, 10, 擅长中医针灸与理疗, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==      Total: 19
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66] from current transaction
+==>  Preparing: SELECT id,username,password,name,created_at,updated_at FROM admin
+==> Parameters: 
+<==    Columns: id, username, password, name, created_at, updated_at
+<==        Row: 1, admin, $2a$12$XhC89QiJwIpJKeg2.sLCg.AVOF.hVdV8TbNM7Cc1fayNLFcEiEXRi, 系统管理员, 2025-12-17 19:23:31, 2025-12-17 19:23:31
+<==      Total: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+2026-02-07 10:13:03.332  INFO 481760 --- [           main] c.p.h.service.PasswordMigrationService   : Password migration completed. Patients: 0, Doctors: 0, Admins: 0
+Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45302e66]
+============================================
+  飞马星球医院预约挂号系统启动成功！
+  API文档: http://localhost:8080/doc.html
+============================================
+2026-02-07 10:13:09.866  INFO 481760 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-07 10:13:09.867  INFO 481760 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-07 10:13:09.872  INFO 481760 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms

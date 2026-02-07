@@ -1,0 +1,6 @@
+/home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/java/com/pegasus/hospital/e2e/AdminDataImportTest.java
+/home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/java/com/pegasus/hospital/util/PasswordEncoderTest.java
+/home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/java/com/pegasus/hospital/e2e/DoctorWorkstationTest.java
+/home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/java/com/pegasus/hospital/e2e/PatientAppointmentTest.java
+/home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/java/com/pegasus/hospital/config/JwtTokenProviderTest.java
+/home/wangchuh232/coding/AAApegasus-hospital/backend/src/test/java/com/pegasus/hospital/RedisIntegrationTest.java

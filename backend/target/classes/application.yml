@@ -1,0 +1,66 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/pegasus_hospital?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: pegasus
+    password: Pegasus#2025Ab
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+  redis:
+    host: localhost
+    port: 6379
+    password: # 可选
+    timeout: 60000
+    lettuce:
+      pool:
+        max-active: 20
+        max-idle: 10
+        min-idle: 0
+        max-wait: -1ms
+  cache:
+    type: redis
+    redis:
+      time-to-live: 3600000  # 1小时缓存时间
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.pegasus.hospital.entity
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
+# Knife4j配置
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+logging:
+  level:
+    com.pegasus.hospital: debug
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+    tags:
+      application: pegasus-hospital

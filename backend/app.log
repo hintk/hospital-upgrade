@@ -1,0 +1,256 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-02-06 20:53:36.695  INFO 330547 --- [           main] c.pegasus.hospital.HospitalApplication   : Starting HospitalApplication v1.0.0 using Java 17.0.18 on wangchuh522 with PID 330547 (/home/wangchuh232/coding/AAApegasus-hospital/backend/target/hospital-1.0.0.jar started by wangchuh232 in /home/wangchuh232/coding/AAApegasus-hospital/backend)
+2026-02-06 20:53:36.699 DEBUG 330547 --- [           main] c.pegasus.hospital.HospitalApplication   : Running with Spring Boot v2.7.18, Spring v5.3.31
+2026-02-06 20:53:36.700  INFO 330547 --- [           main] c.pegasus.hospital.HospitalApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-02-06 20:53:39.030  INFO 330547 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-02-06 20:53:39.048  INFO 330547 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-06 20:53:39.049  INFO 330547 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-02-06 20:53:39.188  INFO 330547 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-06 20:53:39.189  INFO 330547 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2414 ms
+2026-02-06 20:53:39.345 DEBUG 330547 --- [           main] c.p.h.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@698122b2'
+Property 'mapperLocations' was not specified.
+ _ _   |_  _ _|_. ___ _ |    _ 
+| | |\/|_)(_| | |_\  |_)||_|_\ 
+     /               |         
+                        3.5.3.1 
+2026-02-06 20:53:41.310  WARN 330547 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ed35a356-1944-440f-b4d7-c51e3dcd5eed
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-02-06 20:53:41.532  INFO 330547 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28f8e165, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@545f80bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@450794b4, org.springframework.security.web.header.HeaderWriterFilter@4a67318f, org.springframework.web.filter.CorsFilter@23bff419, org.springframework.security.web.authentication.logout.LogoutFilter@199e4c2b, com.pegasus.hospital.config.JwtAuthenticationFilter@35a9782c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30457e14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1af1347d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66f66866, org.springframework.security.web.session.SessionManagementFilter@6650813a, org.springframework.security.web.access.ExceptionTranslationFilter@6979efad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fa47fea]
+2026-02-06 20:53:42.109  INFO 330547 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2026-02-06 20:53:42.301  INFO 330547 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-02-06 20:53:42.303  INFO 330547 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2026-02-06 20:53:42.308  INFO 330547 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2026-02-06 20:53:42.390  INFO 330547 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2026-02-06 20:53:42.533  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_1
+2026-02-06 20:53:42.556  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: importDoctorsUsingPOST_1
+2026-02-06 20:53:42.562  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: importSchedulesUsingPOST_1
+2026-02-06 20:53:42.566  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: downloadDoctorTemplateUsingGET_1
+2026-02-06 20:53:42.569  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: downloadScheduleTemplateUsingGET_1
+2026-02-06 20:53:42.572  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: exportAppointmentsUsingGET_1
+2026-02-06 20:53:42.579  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: generateMonthlyReportUsingGET_1
+2026-02-06 20:53:42.617  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: createUsingPOST_1
+2026-02-06 20:53:42.628  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_1
+2026-02-06 20:53:42.634  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: cancelUsingPUT_1
+2026-02-06 20:53:42.638  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: completeUsingPUT_1
+2026-02-06 20:53:42.650  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDoctorUsingGET_1
+2026-02-06 20:53:42.655  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByPatientUsingGET_1
+2026-02-06 20:53:42.665  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: refreshTokenUsingPOST_1
+2026-02-06 20:53:42.668  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: logoutUsingPOST_1
+2026-02-06 20:53:42.677  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_2
+2026-02-06 20:53:42.678  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_3
+2026-02-06 20:53:42.686  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_1
+2026-02-06 20:53:42.709  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2026-02-06 20:53:42.714  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_1
+2026-02-06 20:53:42.720  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_2
+2026-02-06 20:53:42.721  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_3
+2026-02-06 20:53:42.726  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2026-02-06 20:53:42.730  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2026-02-06 20:53:42.736  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_2
+2026-02-06 20:53:42.737  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listUsingGET_3
+2026-02-06 20:53:42.741  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDepartmentUsingGET_1
+2026-02-06 20:53:42.764  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getScheduleUsingGET_1
+2026-02-06 20:53:42.771  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_4
+2026-02-06 20:53:42.772  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: loginUsingPOST_5
+2026-02-06 20:53:42.780  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: registerUsingPOST_1
+2026-02-06 20:53:42.788  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_2
+2026-02-06 20:53:42.789  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getInfoUsingGET_3
+2026-02-06 20:53:42.794  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_2
+2026-02-06 20:53:42.795  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_3
+2026-02-06 20:53:42.798  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: cancelUsingDELETE_1
+2026-02-06 20:53:42.829  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_2
+2026-02-06 20:53:42.830  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_3
+2026-02-06 20:53:42.834  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_4
+2026-02-06 20:53:42.835  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getByIdUsingGET_5
+2026-02-06 20:53:42.841  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_4
+2026-02-06 20:53:42.842  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_5
+2026-02-06 20:53:42.845  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_2
+2026-02-06 20:53:42.847  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_3
+2026-02-06 20:53:42.852  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDateUsingGET_1
+2026-02-06 20:53:42.856  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDoctorUsingGET_2
+2026-02-06 20:53:42.857  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: listByDoctorUsingGET_3
+2026-02-06 20:53:42.862  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getHomeStatisticsUsingGET_1
+2026-02-06 20:53:42.866  INFO 330547 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getReportStatisticsUsingGET_1
+2026-02-06 20:53:42.890  INFO 330547 --- [           main] c.pegasus.hospital.HospitalApplication   : Started HospitalApplication in 7.076 seconds (JVM running for 7.749)
+2026-02-06 20:53:42.899  INFO 330547 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-06 20:53:43.365  INFO 330547 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-06 20:53:43.377  INFO 330547 --- [           main] c.p.h.service.PasswordMigrationService   : Starting password migration...
+Creating a new SqlSession
+Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+JDBC Connection [HikariProxyConnection@1810970264 wrapping com.mysql.cj.jdbc.ConnectionImpl@299270eb] will be managed by Spring
+==>  Preparing: SELECT patient_id,name,password,id_card,phone,gender,birth_date,status,created_at,updated_at FROM patient
+==> Parameters: 
+<==    Columns: patient_id, name, password, id_card, phone, gender, birth_date, status, created_at, updated_at
+<==        Row: 1000000001, 测试患者A, 123456, 110101199001011234, 13800138001, M, 1990-01-01, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 1000000002, 测试患者B, 123456, 110101199502022345, 13800138002, F, 1995-02-02, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==      Total: 2
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE patient SET name=?, password=?, id_card=?, phone=?, gender=?, birth_date=?, status=?, created_at=?, updated_at=? WHERE patient_id=?
+==> Parameters: 测试患者A(String), $2a$12$Ds6gzEMXIFUWWPEcgfOhXOMePH7VAwl7oXINwRVFx8TrYcn0n.XC.(String), 110101199001011234(String), 13800138001(String), M(String), 1990-01-01(LocalDate), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 1000000001(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE patient SET name=?, password=?, id_card=?, phone=?, gender=?, birth_date=?, status=?, created_at=?, updated_at=? WHERE patient_id=?
+==> Parameters: 测试患者B(String), $2a$12$Q/GoVixPLSZCDOk0LcEo2uhR7NNH5ouQhb2zA9gciFEBlgwKOiwtW(String), 110101199502022345(String), 13800138002(String), F(String), 1995-02-02(LocalDate), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 1000000002(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: SELECT doctor_id,name,password,department_id,specialty,status,created_at,updated_at FROM doctor
+==> Parameters: 
+<==    Columns: doctor_id, name, password, department_id, specialty, status, created_at, updated_at
+<==        Row: 10000001, 张三, 123456, 1, 擅长呼吸系统疾病、慢性咳嗽、肺炎的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000002, 李四, 123456, 1, 擅长消化系统疾病、胃肠道疾病的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000003, 王五, 123456, 2, 擅长普外科手术、腹腔镜微创手术, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000004, 赵六, 123456, 3, 擅长儿童常见病、新生儿疾病的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000005, 钱七, 123456, 4, 擅长妇科炎症、月经不调的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000006, 孙八, 123456, 5, 擅长白内障、青光眼的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000007, 周九, 123456, 6, 擅长鼻炎、中耳炎的诊治, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000008, 吴十, 123456, 9, 擅长骨折、关节置换手术, 1, 2025-12-17 19:23:32, 2025-12-17 19:23:32
+<==        Row: 10000009, 示例医生, 123456, 1, 擅长内科常见病诊治, 1, 2025-12-25 19:17:09, 2025-12-25 19:17:09
+<==        Row: 10000030, 宋楠, 123456, 1, 擅长消化系统疾病诊疗, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000031, 彭磊, 123456, 2, 擅长创伤外科处理, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000032, 袁梦, 123456, 3, 擅长儿童营养与发育评估, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000033, 邓丽, 123456, 4, 擅长孕期保健与产后恢复, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000034, 任航, 123456, 5, 擅长白内障及视力检查, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000035, 马会敏, 123456, 6, 擅长儿童口腔疾病防治, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000036, 薛刚, 123456, 7, 擅长脊柱及骨关节疾病, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000037, 叶青, 123456, 8, 擅长痤疮及皮肤美容护理, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000038, 方磊, 123456, 9, 擅长神经衰弱及失眠治疗, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==        Row: 10000039, 马会生, 123456, 10, 擅长中医针灸与理疗, 1, 2025-12-25 19:16:57, 2025-12-25 19:16:57
+<==      Total: 19
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 张三(String), $2a$12$cm2GzGtXQ3EiyMe90uhUteu3Tpmc1f9myY4MESq5wg4Wr5UsyOw0O(String), 1(Long), 擅长呼吸系统疾病、慢性咳嗽、肺炎的诊治(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000001(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 李四(String), $2a$12$Awt0zhZZOqxUhF9DB5AJ4uttRUEg3mcJYrxI4HblSexN9wwZXSaIG(String), 1(Long), 擅长消化系统疾病、胃肠道疾病的诊治(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000002(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 王五(String), $2a$12$g4j.7ke8/PwLZ3bgmexbaOEW0ettFOX0Rg6SN3uetZMC6dFvaKw1i(String), 2(Long), 擅长普外科手术、腹腔镜微创手术(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000003(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 赵六(String), $2a$12$J8BhrizQuqZRiB2WEsuJ0.wYbJdVKO.Y1Wgf4sAYii4DVMx3pk6dy(String), 3(Long), 擅长儿童常见病、新生儿疾病的诊治(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000004(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 钱七(String), $2a$12$OpQSBNidJIC8351kjlKb2.wMn.7WDAOSBxEpkIJnciwBUCeMJvTGu(String), 4(Long), 擅长妇科炎症、月经不调的诊治(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000005(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 孙八(String), $2a$12$68HRti3iOY9YVpbfc9Ngkeb8ESJ44gmUqmhUoGh2Whd/oWLpNIWRC(String), 5(Long), 擅长白内障、青光眼的诊治(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000006(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 周九(String), $2a$12$vASgs6Gq97zrg6N5.N.bi.N84Mc31xIWvkHXoVXfDyJUHSz.goyUi(String), 6(Long), 擅长鼻炎、中耳炎的诊治(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000007(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 吴十(String), $2a$12$PmstGgjk3gtzNlwLXUhvX.OpLliijA/v5xJZTXAawcgvmrpKBuhuW(String), 9(Long), 擅长骨折、关节置换手术(String), 1(Integer), 2025-12-17T19:23:32(LocalDateTime), 2025-12-17T19:23:32(LocalDateTime), 10000008(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+2026-02-06 20:53:46.879  INFO 330547 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-06 20:53:46.879  INFO 330547 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-06 20:53:46.882  INFO 330547 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 示例医生(String), $2a$12$IPabbX9V.84PtI5zIbAkAeL5Xzk2NMEzZ4eQFIE91BY/tfUdM2PG2(String), 1(Long), 擅长内科常见病诊治(String), 1(Integer), 2025-12-25T19:17:09(LocalDateTime), 2025-12-25T19:17:09(LocalDateTime), 10000009(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 宋楠(String), $2a$12$D3ESUdU0cGGmB8wU5CG6bexu6a1IlBBKHVtk2OZ/frP5dWqG4ot0y(String), 1(Long), 擅长消化系统疾病诊疗(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000030(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 彭磊(String), $2a$12$5akAhkjw7JGxdr.2WJ9KS.kRGITyeBdv5uLPwyJD2nAwIN4wgNIrK(String), 2(Long), 擅长创伤外科处理(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000031(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 袁梦(String), $2a$12$o.lgwa8MzpnnXkNctY/fQuhMtSyIGCzokY3MqrdwqoKWaHXkApmdq(String), 3(Long), 擅长儿童营养与发育评估(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000032(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 邓丽(String), $2a$12$B2B/zKwWE4wEgiia9NHcUec.gfRRw4rk9cDwsU5oqb9Bzrsi9Xwmm(String), 4(Long), 擅长孕期保健与产后恢复(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000033(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 任航(String), $2a$12$B3RgkRCHrNlx5Mr/vrWTe.FaCRs7MlBk7/5y6jNwYp1d3ZBWHkZgq(String), 5(Long), 擅长白内障及视力检查(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000034(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 马会敏(String), $2a$12$l.QvGN5xoIo9pS/J12u.Mez2YDG570dpDJmbRLtcZje5AP8UD/azG(String), 6(Long), 擅长儿童口腔疾病防治(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000035(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 薛刚(String), $2a$12$4D5Okp8uWsAf5PYrvkXPmepd8kvb29nMnJA5VSRAwbq2kUgSp9hA6(String), 7(Long), 擅长脊柱及骨关节疾病(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000036(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 叶青(String), $2a$12$f9zgcM3pAOaNVx6DCWsTmOFjRpNLjxQkj4yB9JsSKEL9DZktVxkm6(String), 8(Long), 擅长痤疮及皮肤美容护理(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000037(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 方磊(String), $2a$12$lhiBy.PM3HhfA/juEo1np.iUSl5VBuy6Lvz2bRkT8yqJ6sB4CeTAW(String), 9(Long), 擅长神经衰弱及失眠治疗(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000038(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE doctor SET name=?, password=?, department_id=?, specialty=?, status=?, created_at=?, updated_at=? WHERE doctor_id=?
+==> Parameters: 马会生(String), $2a$12$0OqrwFCUlwE0dWNpdL.DJeYRVmQM3e0pyiUU6jJLkfP88qrGeGy6i(String), 10(Long), 擅长中医针灸与理疗(String), 1(Integer), 2025-12-25T19:16:57(LocalDateTime), 2025-12-25T19:16:57(LocalDateTime), 10000039(String)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: SELECT id,username,password,name,created_at,updated_at FROM admin
+==> Parameters: 
+<==    Columns: id, username, password, name, created_at, updated_at
+<==        Row: 1, admin, admin123, 系统管理员, 2025-12-17 19:23:31, 2025-12-17 19:23:31
+<==      Total: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0] from current transaction
+==>  Preparing: UPDATE admin SET username=?, password=?, name=?, created_at=?, updated_at=? WHERE id=?
+==> Parameters: admin(String), $2a$12$XhC89QiJwIpJKeg2.sLCg.AVOF.hVdV8TbNM7Cc1fayNLFcEiEXRi(String), 系统管理员(String), 2025-12-17T19:23:31(LocalDateTime), 2025-12-17T19:23:31(LocalDateTime), 1(Long)
+<==    Updates: 1
+Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+2026-02-06 20:53:50.474  INFO 330547 --- [           main] c.p.h.service.PasswordMigrationService   : Password migration completed. Patients: 2, Doctors: 19, Admins: 1
+Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3be4fcc0]
+============================================
+  飞马星球医院预约挂号系统启动成功！
+  API文档: http://localhost:8080/doc.html
+============================================
+2026-02-06 20:57:08.509  INFO 330547 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-06 20:57:08.518  INFO 330547 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
