@@ -36,8 +36,8 @@ mvn spring-boot:run
 ### 1. 登录接口返回值
 原本返回 `User` 对象，现改为返回 **Token 响应**：
 
-*   **管理员登录**: `POST /api/admin/login`
-*   **患者登录**: `POST /api/patient/login`
+*   **管理员登录**: `POST /api/admin/login` (参数: `userId`, `password`)
+*   **患者登录**: `POST /api/patient/login` (参数: `userId`, `password`)
 *   **患者注册**: `POST /api/patient/register`
 
 **响应示例**:
@@ -133,8 +133,10 @@ mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="inst
 
 ### 1. 启动监控栈
 ```bash
-docker-compose -f docker-compose-monitoring.yml up -d
+# 需要 Docker 权限
+sudo docker-compose -f docker-compose-monitoring.yml up -d
 ```
+> **注意**: 如果遇到权限问题，请使用 `sudo` 或确保当前用户在 `docker` 组中。
 启动后访问：
 *   **Prometheus**: [http://localhost:9090](http://localhost:9090)
 *   **Grafana**: [http://localhost:3000](http://localhost:3000) (默认账号 `admin` / `admin`)

@@ -46,12 +46,12 @@ export default {
       },
       fontFamily: {
         sans: [
-          '-apple-system', 
-          'BlinkMacSystemFont', 
-          'Segoe UI', 
-          'Roboto', 
-          'Helvetica Neue', 
-          'Arial', 
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Helvetica Neue',
+          'Arial',
           'sans-serif'
         ],
       },
