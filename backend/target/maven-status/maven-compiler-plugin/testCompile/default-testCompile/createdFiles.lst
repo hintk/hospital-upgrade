@@ -1,6 +1,0 @@
-com/pegasus/hospital/config/JwtTokenProviderTest.class
-com/pegasus/hospital/util/PasswordEncoderTest.class
-com/pegasus/hospital/e2e/DoctorWorkstationTest.class
-com/pegasus/hospital/RedisIntegrationTest.class
-com/pegasus/hospital/e2e/PatientAppointmentTest.class
-com/pegasus/hospital/e2e/AdminDataImportTest.class
